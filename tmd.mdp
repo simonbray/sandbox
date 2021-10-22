@@ -48,9 +48,5 @@ pull_coord1_geometry    = distance  ; simple distance increase
 pull_coord1_dim         = Y Y Y     ; pull along z
 pull_coord1_groups      = 1 2       ; groups 1 (Chain A) and 2 (Chain B) define the reaction coordinate
 pull_coord1_start       = yes       ; define initial COM distance > 0
-pull_coord1_rate        = 0.001      ; 0.01 nm per ps = 10 nm per ns
-nsteps                  = 1000000   ; 2 * 5000000 = 10000 ps (10 ns)
 pull_group1_name        = pullgrp_mpro
-pull-group1-pbcatom     = 606
 pull_group2_name        = UNL_&_!H*
-dt                      = 0.001     ; 2 fs
