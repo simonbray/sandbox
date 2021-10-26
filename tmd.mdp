@@ -48,5 +48,5 @@ pull_coord1_geometry    = distance  ; simple distance increase
 pull_coord1_dim         = Y Y Y     ; pull along z
 pull_coord1_groups      = 1 2       ; groups 1 (Chain A) and 2 (Chain B) define the reaction coordinate
 pull_coord1_start       = yes       ; define initial COM distance > 0
-pull_group1_name        = pullgrp_mpro
+pull_group1_name        = pullgrp
 pull_group2_name        = UNL_&_!H*
